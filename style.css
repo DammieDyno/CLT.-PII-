@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#big-div{
+    width: 100%;
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.style{
+    text-shadow: 2px 2px rgb(212, 244, 249);;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-weight: bolder;
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#small-div{
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(243, 243, 245);
+    box-shadow: 5px 5px 5px rgb(45, 45, 45);
+    border-radius: 10px;
+}
+#nut-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+    font-weight: 800;
+    font-size: 25px;
+}
+#button1, #button2{
+    font-weight: 800;
+    font-size: 25px;
+    align-items: center;
+}
+#images{
+    width: 20%;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 50px;
+    position: absolute;
+}
+#details{
+    width: 20%;
+    height: 50vh;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 40px;
+}
+#arrange{
+    line-height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+    font-size: large;
+    color: rgb(1, 2, 51);
+    cursor: pointer;
+}
